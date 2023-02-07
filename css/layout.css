@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  .container {
+    max-width: 575px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.column-full,
+.column-one-third {
+  width: 100%;
+}

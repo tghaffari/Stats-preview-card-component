@@ -3,11 +3,8 @@
 }
 
 .container {
-  .container {
-    max-width: 575px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
+  max-width: 575px;
+  margin: 4rem 1rem;
 }
 
 .row {
@@ -17,4 +14,5 @@
 .column-full,
 .column-one-third {
   width: 100%;
+}
 }

@@ -3,9 +3,10 @@
 }
 
 .container {
-  max-width: 575px;
-  margin: 4rem 1rem;
+  margin: 4rem auto;
   padding: 0 0 1rem;
+  display: grid;
+  justify-items: center;
 }
 
 .row {

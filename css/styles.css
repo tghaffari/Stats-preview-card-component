@@ -1,0 +1,74 @@
+html {
+  font-size: 15px;
+  font-family: Inter, sans-serif;
+}
+
+.background {
+  background-color: hsl(233deg 47% 7%);
+}
+
+.card {
+  background-color: hsl(244deg 38% 16%);
+  border-radius: 8px;
+}
+
+.image {
+  background-image: url("../images/image-header-mobile.jpg");
+  height: 250px;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  background-size: cover;
+}
+
+.image-tint {
+  height: 100%;
+  background-color: rgb(148 40 214 / 50%);
+}
+
+.card-padding {
+  padding: 0 1.5rem;
+}
+
+h1 {
+  font-family: Inter, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+span {
+  color: hsl(277deg 64% 61%);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.summary {
+  text-align: center;
+  color: hsl(0deg 0% 100% / 75%);
+  line-height: 25px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 0;
+}
+
+.stats {
+  color: hsl(0deg 0% 100% / 60%);
+  margin: 0 0 1rem;
+  letter-spacing: 2px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg 45% 44%);
+}

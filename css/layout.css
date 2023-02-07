@@ -5,6 +5,7 @@
 .container {
   max-width: 575px;
   margin: 4rem 1rem;
+  padding: 0 0 1rem;
 }
 
 .row {
@@ -14,5 +15,4 @@
 .column-full,
 .column-one-third {
   width: 100%;
-}
 }

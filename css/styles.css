@@ -10,6 +10,8 @@ html {
 .card {
   background-color: hsl(244deg 38% 16%);
   border-radius: 8px;
+  padding-bottom: 1rem;
+  width: 350px;
 }
 
 .image {
@@ -67,6 +69,7 @@ h2 {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 
 .attribution a {

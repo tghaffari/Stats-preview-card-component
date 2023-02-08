@@ -84,6 +84,12 @@ h2 {
   color: hsl(228deg 45% 44%);
 }
 
+.stats-styling {
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
 @media screen and (min-width: 900px) {
   .wrap {
     flex-wrap: no-wrap;
@@ -116,5 +122,10 @@ h2 {
 
   .text-align {
     text-align: left;
+  }
+
+  .stats-styling {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }

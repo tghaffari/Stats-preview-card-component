@@ -14,6 +14,13 @@
 }
 
 .column-full,
+.column-half,
 .column-one-third {
   width: 100%;
+}
+
+@media screen and (min-width: 1275px) {
+  .column-half {
+    width: 50%;
+  }
 }

@@ -22,7 +22,7 @@
   flex-basis: auto;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1440px) {
   .container {
     margin: auto;
     display: grid;

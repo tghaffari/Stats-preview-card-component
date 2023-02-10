@@ -14,6 +14,11 @@ html {
   width: 340px;
 }
 
+.direction {
+  flex-direction: row;
+
+}
+
 .image {
   background-image: url("../images/image-header-mobile.jpg");
   height: 250px;
@@ -25,6 +30,11 @@ html {
 .image-tint {
   height: 100%;
   background-color: rgb(148 40 214 / 50%);
+  border-radius: 8px 8px 0 0;
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 .card-padding {
@@ -41,12 +51,11 @@ span {
   color: hsl(277deg 64% 61%);
 }
 
-.text-align-center {
+.text-align {
   text-align: center;
 }
 
 .summary {
-  text-align: center;
   color: hsl(0deg 0% 100% / 75%);
   line-height: 25px;
 }
@@ -74,4 +83,51 @@ h2 {
 
 .attribution a {
   color: hsl(228deg 45% 44%);
+}
+
+.stats-styling {
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .wrap {
+    flex-wrap: no-wrap;
+  }
+
+  .direction {
+    flex-direction: row-reverse;
+  }
+
+  .card {
+    padding-bottom: 0;
+    width: 950px;
+  }
+
+  .image {
+    background-image: url("../images/image-header-desktop.jpg");
+    height: 400px;
+    width: 100%;
+    border-radius: 0 8px 8px 0;
+    background-size: cover;
+  }
+
+  .image-tint {
+    border-radius: 0 8px 8px 0;
+  }
+
+  .text-align {
+    text-align: left;
+  }
+
+  .stats-styling {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+
+  .card-padding {
+    padding: 0 4rem 0 3rem;
+  }
 }
